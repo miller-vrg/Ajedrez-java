@@ -3,9 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Documentos/NetBeansProjects/ajedres/src/controllers/Ficha.java</file>
-            <file>file:/D:/Documentos/NetBeansProjects/ajedres/src/controllers/Torre.java</file>
-            <file>file:/D:/Documentos/NetBeansProjects/ajedres/src/views/Inicio.java</file>
+            <file>file:/D:/Documentos/miller-vrg/Ajedrez-java/src/controllers/Torre.java</file>
+            <file>file:/D:/Documentos/miller-vrg/Ajedrez-java/src/controllers/Caballo.java</file>
+            <file>file:/D:/Documentos/miller-vrg/Ajedrez-java/src/views/Inicio.java</file>
         </group>
     </open-files>
 </project-private>

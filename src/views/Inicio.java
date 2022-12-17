@@ -499,8 +499,9 @@ public class Inicio extends javax.swing.JFrame {
             flag = tipo.equals("Blanco");
             if(flag) caballosBlancos.get(posicion).movimiento(this);
             else{
-                posicion -= Caballo.conteo;
-                caballosNegros.get(posicion-2).movimiento(this);
+                posicion = ((Caballo.conteo)/2)-posicion;
+                posicion *= posicion < 0 ? -1: 1;
+                caballosNegros.get(posicion).movimiento(this);
             }
         }
         flag = value[1].equals("alfil");

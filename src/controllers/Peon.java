@@ -35,10 +35,7 @@ public class Peon extends Ficha {
         int x = i.cordenadas[1];
                 
         flag = y == 7;
-        if(flag){
-             JOptionPane.showMessageDialog(null,"Ya no puedes mover más");
-            return;
-        }
+        if(flag)return;
         
         flag = i.getEstado().equals("inactivo");
         if(flag){
